@@ -1,0 +1,156 @@
+/*************************************************
+File:       		color.h
+Author:            	BESTMODULES
+Description:        color data
+History：		    -
+V1.0.0	 -- initial version；2022-11-23；Arduino IDE : ≥v1.8.13
+
+**************************************************/
+
+#ifndef COLOR_h
+#define COLOR_h
+
+#define DARK_RED                0x8B0000 
+#define RED                     0xFF0000
+#define ORANGE                  0xFFA500
+#define YELLOW                  0xFFFF00
+#define LIGHT_GREEN             0x90EE90
+#define GREEN                   0x008000  
+#define LIGHT_BLUE              0xADD8E6
+#define BLUE                    0x0000FF
+#define DARK_BLUE               0x00008B
+#define PURPLE                  0x800080
+
+#define ALICE_BLUE              0xF0F8FF
+#define ANTIQUE_WHITE           0xFAEBD7
+#define AQUA                    0x00FFFF
+#define AQUAMARINE              0x7FFFD4
+#define AZURE                   0xF0FFFF
+#define BEIGE                   0xF5F5DC
+#define BISQUE                  0xFFE4C4
+#define BLACK                   0x000000   
+#define BLANCHED_ALMOND         0xFFEBCD   
+#define BLIE_VIOLET             0x8A2BE2
+#define BROWN                   0xA52A2A
+#define BURLY_WOOD              0xDEB887
+#define CADET_BLUE              0x5F9EA0
+#define CHARTREUSE              0x7FFF00
+#define CHOCOLATE               0xD2691E
+#define CORAL                   0xFF7F50
+#define CORNFLOWER_BLUE         0x6495ED
+#define CORNSILK                0xFFF8DC
+#define CRIMSON                 0xDC143C
+#define CVAN                    0x00FFFF
+#define DARK_CUAR               0x008B8B
+#define DARK_GOLDENROD          0xB8860B
+#define DARK_GRAY               0xA9A9A9
+#define DARK_GREEN              0x006400
+#define DARK_KHAKI              0xBDB76B
+#define DARK_MAGENTA            0x8B008B
+#define DARK_OLIVE_GREEN        0x556B2F 
+#define DARK_ORANGE             0xFF8C00 
+#define DARK_ORCHID             0x9932CC   
+#define DARK_SALMON             0XE9967A 
+#define DARK_SEA_GREEN          0x8FBC8F
+#define DARK_SLATE_BLUE         0x483D8B
+#define DARK_SLATE_GRAY         0x2F4F4F
+#define DARK_TURQUOISE          0x00CED1
+#define DARK_VIOLET             0x9400D3
+#define DEEP_PINK               0xFF1493
+#define DEEP_SKY_BLUE           0x00BFFF
+#define DIM_GRAY                0x696969
+#define DGDGER_BLUE             0x1E90FF
+#define FIREBRICK               0xB22222
+#define FLORAL_WHITE            0xFFFAF0
+#define FOREST_GREEN            0x228B22
+#define FUCHSIA                 0xFF00FF
+#define GAINSBORO               0xDCDCDC 
+#define GHOST_WHITE             0xF8F8FF
+#define GOLD                    0xFFD700 
+#define GOLDENROD               0xDAA520
+#define GRAY                    0x808080
+#define GREEN_YELLOW            0xADFF2F
+#define HONEYDEW                0xF0FFF0
+#define HOT_PINK                0xFF69B4
+#define INDIAN_RED              0xCD5C5C
+#define INDIGO                  0x4B0082
+#define LVORY                   0xFFFFF0
+#define KHAKI                   0xF0E68C
+#define LAVENDER                0xE6E6FA
+#define LAVENDER_BLUSH          0xFFF0F5  
+#define LAWN_GREEN              0x7CFC00  
+#define LEMON_CHIFFON           0xFFFACD
+#define LIGHT_CORAL             0xF08080
+#define LIGHT_CYAN              0xE0FFFF
+#define LIGHT_GOLDENROD_YELLOW  0xFAFAD2
+#define LIGHT_GRAY              0XD3D3D3
+#define LIGHT_PINK              0xFFB6C1
+#define LIGHT_SALMON            0xFFA07A
+#define LIGHT_SEA_GREEN         0x20B2AA
+#define LIGHT_SKU_BLUE          0x87CEFA
+#define LIGHT_SLATE_GRAY        0x778899
+#define LIGHT_STEEL_BLUE        0xB04CDE
+#define LIGHT_YELLOW            0xFFFFE0
+#define LIME                    0x00FF00
+#define LIME_GREEN              0x32CD32
+#define LINEN                   0xFAF0E6
+#define MAGENTA                 0xFF00FF
+#define MAROON                  0x800000
+#define MEDIUM_AQUAMARINE       0x66CDAA
+#define MEDIUM_BLUE             0x0000CD
+#define MEDIUM_ORCHID           0xBA55D3
+#define MEDIUM_PURPLE           0x93D07B
+#define MEDIUM_SEA_GREEN        0x3CB371
+#define MEDIUM_SLATE_BLUE       0x7B68EE
+#define MEDIUM_SPRING_GREEN     0x00FA9A
+#define MEDIUM_TURQUOISE        0x48D1CC
+#define MEDIUM_VIOLET_RED       0xC71585
+#define MIDNIGHT_BLUE           0x191970
+#define MINT_CREAM              0xF5FFFA
+#define MISTY_ROSE              0xFFE4E1
+#define MOCCASIN                0xFFE4B5
+#define NAVAJO_WHITE            0xFFDEAD
+#define NAVY                    0x000080
+#define OLD_LACE                0xFDF5E6
+#define OLIVE                   0x808000
+#define OLIVE_DRAB              0x6B8E23   
+#define ORANGE_RED              0xFF4500
+#define ORCHID                  0xDA70D6  
+#define PALE_GOLDENROD          0xEEE8AA
+#define PALE_GREEN              0x98FB98 
+#define PALE_TURQUOISE          0xAFEEEE
+#define PALE_VIOLET_RED         0xDB7093
+#define PAPAYA_WHIP             0xFFEFD5   
+#define PEACH_PUFF              0xFFDAB9  
+#define PERU                    0xCD853F 
+#define PINK                    0xFFC0CB
+#define PLUM                    0xDDA0DD
+#define POWDER_BLUE             0xB0E0E6
+#define ROSY_BROWN              0xBC8F8F
+#define ROYAL_BLUE              0x4169E1
+#define SADDLE_BROWN            0x8B4513
+#define SALMON                  0xFA8072
+#define SANDY_BROWN             0xF4A460
+#define SEA_GREEN               0x2E8B57
+#define SEA_SHELL               0xFFF5EE
+#define SIENNA                  0xA0522D
+#define SILVER                  0xC0C0C0
+#define SKY_BLUE                0x87CEEB
+#define SLATE_BLUE              0x6A5ACD
+#define SLATE_GRAY              0x708090
+#define SNOW                    0xFFFAFA
+#define SPRING_GREEN            0x00FF7F
+#define STEEL_BLUE              0x4682B4
+#define TAN                     0xD2B48C
+#define TEAL                    0x008080
+#define THISTLE                 0xD8BFD8  
+#define TOMATO                  0xFF6347     
+#define TRANSPARENT             0xFFFFFF
+#define TURQUOISE               0x40E0D0      
+#define VIOLET                  0xEE82EE
+#define WHEAT                   0xF5DE83
+#define WHITE                   0xFFFFFF
+#define WHITE_SMOKE             0xF5F5F5
+#define YELLOW_GREEN            0x9ACD32
+
+#endif
